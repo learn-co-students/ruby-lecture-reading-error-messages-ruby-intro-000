@@ -1,3 +1,3 @@
-1 + 1
-
-1 + "is the loneliest number"
+a = 1 + 1
+a = a.to_s
+puts (a + "is the loneliest number")
