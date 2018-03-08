@@ -1,3 +1,3 @@
-"hello world"
+quote = "hello world"
 
-hello_world
+quote
