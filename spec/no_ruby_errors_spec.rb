@@ -10,6 +10,8 @@ describe "Not having any errors and being all green" do
 
   context 'SyntaxError' do
     it 'raises a SyntaxError for nonsensical code' do
+  ru  end
+
       expect{
         load './lib/a_syntax_error.rb'
       }.to_not raise_error
@@ -26,9 +28,8 @@ describe "Not having any errors and being all green" do
 
   context 'ZeroDivisionError' do
     it 'raises a ZeroDivisionError for dividing by zero' do
+    end
       expect{
         load './lib/a_division_by_zero_error.rb'
       }.to_not raise_error
     end
-  end
-end
