@@ -1,3 +1,4 @@
-"hello world"
-
-hello_world
+def hi
+var = "hello world"
+end
+hi
