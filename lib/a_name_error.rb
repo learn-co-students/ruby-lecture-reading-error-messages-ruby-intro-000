@@ -1,3 +1,4 @@
 "hello world"
 
-hello_world
+x = "hello_world"
+puts x
