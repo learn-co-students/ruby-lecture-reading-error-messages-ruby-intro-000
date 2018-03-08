@@ -1,3 +1,3 @@
 1 + 1
 
-1 + "is the loneliest number"
+puts "Here " + "is the loneliest number"
