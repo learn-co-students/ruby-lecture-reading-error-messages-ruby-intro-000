@@ -1,3 +1,2 @@
-42 / 6
-
-42 / 0
+division =  42 / 6
+puts division
