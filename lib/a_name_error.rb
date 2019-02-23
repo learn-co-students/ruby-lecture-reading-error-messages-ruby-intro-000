@@ -1,3 +1,3 @@
 "hello world"
 
-hello_world
+load "(.lib/hello_world.rb)"
