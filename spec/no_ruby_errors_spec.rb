@@ -11,7 +11,9 @@ describe "Not having any errors and being all green" do
   context 'SyntaxError' do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
-        load './lib/a_syntax_error.rb'
+        load './lib/a_syntax_error.rb' 
+        end
+        end
       }.to_not raise_error
     end
   end
