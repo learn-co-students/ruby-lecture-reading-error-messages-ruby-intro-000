@@ -1,3 +1,2 @@
-"hello world"
-
-hello_world
+Good = "New example"
+Good
