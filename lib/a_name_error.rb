@@ -1,3 +1,5 @@
-"hello world"
 
-hello_world
+
+def hello_world
+  "hello world"
+end
