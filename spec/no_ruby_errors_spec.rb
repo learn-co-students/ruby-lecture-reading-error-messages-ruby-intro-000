@@ -1,11 +1,11 @@
-describe "Not having any errors and being all green" do
+describe "Ruby Errors" do
 
   context 'NameError' do
-    it 'raises a NameError when encountering undefined barewords' do
+  it 'raises a NameError when encountering undefined barewords' do
       expect{
         load './lib/a_name_error.rb'
-      }.to_not raise_error
-    end
+      }.to raise_error (NameError)
+    endlear
   end
 
   context 'SyntaxError' do
