@@ -107,7 +107,7 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
 
 1. Open this lab.
 
-2. Run `learn` from the root of the lab's directory. You should see a lot of red — this is okay! Tests have failed, and now we can fix them.
+2. Run `learn` from the root of the lab's directory. You should see a lot of red — this is okay! Tests have failed, and now we can fix them.ls
 
   * Read the errors. Scroll through the entire output to get a sense of what the failures are trying to tell you. What does ``expected no Exception, got #<NameError: undefined local variable or method `hello_world' for main:Object> with backtrace`` mean? How can we fix it?
 
