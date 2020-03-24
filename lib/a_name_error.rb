@@ -1,3 +1,3 @@
 "hello world"
 
-hello_world
+'push hello_world'
