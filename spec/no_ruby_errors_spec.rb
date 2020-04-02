@@ -9,11 +9,11 @@ describe "Not having any errors and being all green" do
   end
 
   context 'SyntaxError' do
-    it 'raises a SyntaxError for nonsensical code' do
-      expect{
-        load './lib/a_syntax_error.rb'
-      }.to_not raise_error
-    end
+     it 'raises a SyntaxError for nonsensical code' do
+       expect{
+         load './lib/a_syntax_error.rb'
+       }.to_not raise_error
+     end
   end
 
   context 'TypeError' do
