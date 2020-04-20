@@ -14,7 +14,7 @@ describe "Not having any errors and being all green" do
         load './lib/a_syntax_error.rb'
       }.to_not raise_error
     end
-  end
+end
 
   context 'TypeError' do
     it 'raises a TypeError for objects of the wrong type' do
