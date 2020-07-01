@@ -1,3 +1,3 @@
 "hello world"
 
-hello_world
+require 'hello_world'
