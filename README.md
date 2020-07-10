@@ -4,7 +4,7 @@
 
 In this lab, you'll be reading error messages from tests. This lab is designed so that both running the files *and* running the test suite via the `learn` command will show the error messages for you to decode. Moving forward though, you'll be reading error messages mainly through running the test suite.
 
-Get started by opening this lab by pressing the Open button on the toolbar so you can follow along with the video and solve this lab.
+Get started by opening this lab by pressing the Open button on the toolbar so you can fow along with the video and solve this lab.
 
 ## Objectives
 
@@ -114,7 +114,7 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
   * Each error prints out a **stack trace**, which points to where the code failed and attempts to follow it _up the stack_ — that is, through the bits of code that ran leading up to the failure. You can use these stack traces to pinpoint which line(s) of code need your attention.
 
   * These stack traces can also point you to which files you should run to get a better sense of the errors. Which leads us to step 3:
-  
+
 3. Fix the errors in each of the files in `lib/`. Then confirm the fix by running `learn` again.
 
 4. Once your code is passing with the `learn` command, submit the lab with `learn submit`
