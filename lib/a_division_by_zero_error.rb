@@ -1,3 +1,3 @@
 42 / 6
 
-42 / 0
+dividzero = "42 / 0. Nothing can be divided by zero"
