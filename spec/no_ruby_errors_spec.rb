@@ -12,7 +12,7 @@ describe "Not having any errors and being all green" do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
         load './lib/a_syntax_error.rb'
-      }.to_not raise_error
+      }.to raise_error
     end
   end
 
@@ -20,7 +20,7 @@ describe "Not having any errors and being all green" do
     it 'raises a TypeError for objects of the wrong type' do
       expect{
         load './lib/a_type_error.rb'
-      }.to_not raise_error
+      }.to raise_error
     end
   end
 
