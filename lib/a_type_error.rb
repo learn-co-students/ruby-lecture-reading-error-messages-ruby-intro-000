@@ -1,3 +1,6 @@
-1 + 1
+def a_typ_err
+ 1 + 1
+ 
+end
 
-1 + "is the loneliest number"
+return a_typ_err
