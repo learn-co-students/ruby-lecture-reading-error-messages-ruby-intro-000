@@ -1,3 +1,5 @@
-x = 1
+def a_syn_error
+  x = 1
+end 
 
-x = 
+return a_syn_error
